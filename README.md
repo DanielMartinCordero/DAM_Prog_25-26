@@ -1,7 +1,7 @@
 # 📚 PROGRAMACIÓN 25-26 | DAM
 
-### 🇪🇸 Contenido del Repositorio
-Este es el contenedor principal para las unidades y proyectos de la asignatura de **Programación** del primer año del Grado Superior en **Desarrollo de Aplicaciones Multiplataforma (DAM)** en el IES Newton Salas . 
+### 🇪🇸 Contenido del repositorio
+Este es el contenedor principal para las unidades y proyectos de la asignatura de **programación** del primer año del grado superior en **Desarrollo de Aplicaciones Multiplataforma (DAM)** en el IES Newton Salas . 
 
 **Objetivos:** 
 - Almacenar las unidades de trabajo (UT) de forma organizada y accesibles para el profesor.
