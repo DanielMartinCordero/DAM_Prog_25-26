@@ -1,6 +1,6 @@
 # 🧬 Unit 07: Herencia (Inheritance)
 
-### 🇪🇸 Resumen de la Unidad
+### 🇪🇸 Resumen de la unidad
 En esta unidad se explora la **herencia**, uno de los pilares fundamentales de la POO que permite que las características de una clase pasen de "padres" a "hijos". El objetivo principal es la **reutilización de código** y la creación de jerarquías de clases eficientes.
 
 **Conceptos Clave Aprendidos:**
