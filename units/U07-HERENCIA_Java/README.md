@@ -3,10 +3,10 @@
 ### 🇪🇸 Resumen de la unidad
 En esta unidad se explora la **herencia**, uno de los pilares fundamentales de la POO que permite que las características de una clase pasen de "padres" a "hijos". El objetivo principal es la **reutilización de código** y la creación de jerarquías de clases eficientes.
 
-**Conceptos Clave Aprendidos:**
+**Conceptos clave aprendidos:**
 * **Estructura**: Uso de `extends` para definir subclases a partir de una superclase.
 * **Visibilidad**: Implementación del modificador `protected` para permitir acceso en la jerarquía sin exponer datos al exterior.
-* **Polimorfismo**: Redefinición de métodos mediante `@Override` y el uso de la **Selección Dinámica de Métodos**.
+* **Polimorfismo**: Redefinición de métodos mediante `@Override` y el uso de la **selección dinámica de métodos**.
 * **Constructores**: Uso de `super()` para inicializar atributos heredados desde la subclase.
 * **Clase Object**: Estudio de la raíz de Java y sobreescritura de métodos universales como `toString()` y `equals()`.
 * **Abstracción**: Creación de clases y métodos `abstract` que delegan la implementación a sus hijos.
