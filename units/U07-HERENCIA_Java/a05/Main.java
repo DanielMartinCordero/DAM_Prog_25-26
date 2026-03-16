@@ -22,6 +22,20 @@ public class Main {
         System.out.println("Versión de prueba ejecutada");
         System.out.println("Versión completa: ");
 
-
+        Nota[] todasLasNotas = Nota.values();
+        for(int i = miPiano.getNumNotas(); i< miPiano.getLongitudTablasNotas(); i++){
+            int indiceRandom = (int) (Math.random()*todasLasNotas.length);
+            miPiano.add(todasLasNotas[indiceRandom]);
+        }
+        //Uso un thread.sleep para pausar brevemente el programa
+        try {
+            // Pausa de 3 segundos (3000 ms) antes de empezar
+            System.out.println("Apunto de empezar...");
+            Thread.sleep(3000);
+            miPiano.interpretar();
+        } catch (InterruptedException e) {
+            // Por si el hilo se corta, es obligatorio
+            System.err.println("La interpretación fue interrumpida.");
+        }
     }
 }
