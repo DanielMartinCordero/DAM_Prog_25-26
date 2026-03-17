@@ -25,9 +25,7 @@ public class HoraExactaEquals extends Hora {
         public byte getSeg(){
             return seg;
         }
-        public void setSeg(byte seg){
-            this.seg = seg;
-        }
+
         @Override
         public String toString(){
             return String.format("%02d:%02d:%02d", super.getHora(), super.getMin(), seg);
