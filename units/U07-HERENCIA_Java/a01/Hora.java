@@ -5,8 +5,8 @@ public class Hora {
     private byte min;
 
     public Hora(byte hora, byte min){
-        this.hora = hora;
-        this.min = min;
+        this.hora = hora <24 && hora>=0? hora:0;
+        this.min = min<60 && min>=0? min:0;
     }
     public void inc(){
         if(min == 59) {
