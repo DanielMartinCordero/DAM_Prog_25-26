@@ -14,6 +14,7 @@ public abstract class Instrumento {
         }
     }
     public abstract void interpretar();
+    
     public Nota[] getNotas() {
         return notas;
     }
