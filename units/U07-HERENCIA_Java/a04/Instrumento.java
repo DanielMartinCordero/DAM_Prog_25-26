@@ -26,7 +26,7 @@ public abstract class Instrumento {
         return LONGITUD_TABLAS_NOTAS;
     }
     public void setNotas(Nota[] notas) {
-        if(notas.length == LONGITUD_TABLAS_NOTAS) {
+        if(notas.length <= LONGITUD_TABLAS_NOTAS && >=0) {
             this.notas = notas;
             numNotas = 0;
             for(int i = 0; i < notas.length; i++){
