@@ -1,4 +1,4 @@
-# 🧩 Unit 08: Interfaces y Polimorfismo (Interfaces & Polymorphism)
+# 🧩 Unit 08: Interfaces y polimorfismo (Interfaces & Polymorphism)
 
 ### 🇪🇸 Resumen de la unidad
 En esta unidad se profundiza en el concepto de **interfaces**, el nivel más alto de abstracción en Java. El enfoque principal es aprender a definir **contratos de comportamiento** que las clases deben cumplir, permitiendo un diseño de software desacoplado y altamente flexible.
