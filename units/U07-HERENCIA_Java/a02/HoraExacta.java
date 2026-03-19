@@ -2,11 +2,12 @@ package a02;
 import a01.Hora;
 
 public class HoraExacta extends Hora{
-    byte seg;
+    private byte seg;
     HoraExacta(byte hora, byte min, byte seg){
         super(hora, min);
         this.seg = seg;
     }
+    @Override
     public void inc(){
         seg++;
         if(seg==60){

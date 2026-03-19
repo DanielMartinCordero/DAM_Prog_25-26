@@ -2,7 +2,7 @@ package a03;
 import a01.Hora;
 
 public class HoraExactaEquals extends Hora {
-        byte seg;
+        private byte seg;
         HoraExactaEquals(byte hora, byte min, byte seg){
             super(hora, min);
             this.seg = seg;
@@ -25,9 +25,7 @@ public class HoraExactaEquals extends Hora {
         public byte getSeg(){
             return seg;
         }
-        public void setSeg(byte seg){
-            this.seg = seg;
-        }
+
         @Override
         public String toString(){
             return String.format("%02d:%02d:%02d", super.getHora(), super.getMin(), seg);
