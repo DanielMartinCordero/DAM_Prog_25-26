@@ -1,6 +1,6 @@
 package a01;
 
-public class Bombilla implements DispositivoConectado {
+class Bombilla implements DispositivoConectado {
     @Override
     public void encender(){
         System.out.println("Bombilla encendida");

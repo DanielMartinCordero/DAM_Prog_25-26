@@ -1,6 +1,6 @@
 package a01;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Bombilla b1 = new Bombilla();
         Televisor t1 = new Televisor();
