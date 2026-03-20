@@ -1,12 +1,12 @@
 package a02;
 import java.util.Scanner;
 
-public interface MetodoPago {
+interface MetodoPago {
     double IVA = 0.21;
 
     void procesarPago(double importe);
 
-    static void logTransaccion(){
+    private static void logTransaccion(){
         System.out.println("Transacción registrada");
     }
 

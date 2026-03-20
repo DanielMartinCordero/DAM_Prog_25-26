@@ -1,13 +1,17 @@
 package a01;
 
-public class Televisor implements DispositivoConectado{
+class Televisor implements DispositivoConectado{
+    @Override
     public void encender(){
         System.out.println("Televisión encendida");
     }
+
     @Override
     public void apagar(){
         System.out.println("Televisión apagada");
     }
+
+    @Override
     public void conectar(){
         System.out.println("Dispositivo conectado a "+TIPO_RED);
         System.out.println("Buscando actualizaciones de firmware...");
