@@ -14,7 +14,7 @@ public class Piano extends Instrumento {
          for(int i = 0; i<super.getNumNotas(); i++){ //No hago un forEach para evitar mostrar nulls
              int aleatorio = (int) (Math.random() * iconos.length);
              int aleatorio1 = aleatorio >= (iconos.length/2) ? aleatorio-1 : aleatorio+1;
-             System.out.print(" | "+ iconos[aleatorio].getSimbolo() + " "+super.getNotas()[i]+" " + iconos[aleatorio1].getSimbolo() + " | ")
+             System.out.print(" | "+ iconos[aleatorio].getSimbolo() + " "+super.getNotas()[i]+" " + iconos[aleatorio1].getSimbolo() + " | ");
          }
         
         System.out.println("\n-------------------------------------------");
