@@ -1,6 +1,6 @@
 package a03;
 
-interface Notificable {
+public interface Notificable {
     void enviarNotificacion(String mensaje);
 
 }
