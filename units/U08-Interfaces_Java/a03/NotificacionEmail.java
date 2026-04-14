@@ -6,7 +6,7 @@ class NotificacionEmail implements Notificable {
     @Override
     public void enviarNotificacion(String mensaje) {
         System.out.println("De: "+direccionEmail );
-        System.out.println("Para: "+"x@gmail.com");
+        System.out.println("Para: x@gmail.com");
         System.out.println(mensaje);
     }
 }
