@@ -12,16 +12,19 @@ public class Main {
         for(int i=0; i<linea1.length(); i++){
             fW.write(linea1.charAt(i));
         }
+        
         System.out.println("Línea 1 escrita carácter a carácter");
     }
 
     static void escribir(BufferedWriter bW) throws IOException {
         bW.newLine();
+        
         String linea2 = "de cuyo nombre no quiero acordarme";
 
         //Escribimos la línea directamente
         bW.write(linea2);
-
+        bW.newLine();
+        
         System.out.println("Línea 2 escrita a la vez");
     }
     public static void main(String[] args){
