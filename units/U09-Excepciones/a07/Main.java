@@ -36,6 +36,7 @@ public class Main {
             bW = new BufferedWriter(fW);
 
             //Llamamos a los metodos
+
             escribir(fW);
             escribir(bW);
         }

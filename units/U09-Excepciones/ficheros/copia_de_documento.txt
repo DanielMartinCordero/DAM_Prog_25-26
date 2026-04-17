@@ -1,0 +1,4 @@
+texto de prueba para comprobar que el programa es capaz de leer y copiar exactamente un documento.
+Crearé varias 
+líneas, y el programa deberá replicarlas.
+3880583
