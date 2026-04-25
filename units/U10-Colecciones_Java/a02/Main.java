@@ -30,5 +30,26 @@ public class Main {
         System.out.println("Fin del bucle");
         System.out.println("Resultados: ");
         System.out.println(listaNum);
+
+        System.out.println("Valores pares: ");
+        for(Integer i : listaNum){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+
+        System.out.println("Revisando la lista para eliminar múltiplos de 3...");
+        Iterator<Integer> it  = listaNum.iterator();
+        Integer numeroActual;
+        while(it.hasNext()){
+            numeroActual = it.next();
+            if(numeroActual%3==0){
+                System.out.println("Múltiplo de 3 encontrado: "+numeroActual);
+                it.remove();
+            }
+
+        }
+        System.out.println("Lista sin múltiplos de 3: ");
+        System.out.println(listaNum);
     }
 }
