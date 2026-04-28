@@ -12,21 +12,29 @@ import java.util.*;
 public class Main {
     public static void main(String[] args){
         Collection<Integer> listaNum = new ArrayList<>();
-        Scanner sc = new Scanner(System.in);
         int num = 0;
 
         System.out.println("Si quiere cerrar el programa, introduzca -1");
 
-        do{
-            System.out.println("Añada un número");
-            num = sc.nextInt();
-            if (num>=0){
-                listaNum.add(num);
-            }
-            else {
-                System.out.println("No se puede añadir a la lista, los números negativos no son válidos.");
-            }
-        }while(num !=-1);
+        try(Scanner sc = new Scanner(System.in);) {
+            do {
+                System.out.println("Añada un número");
+                try {
+                    num = sc.nextInt();
+
+                    if (num >= 0) {
+                        listaNum.add(num);
+                    } else {
+                        System.out.println("No se puede añadir a la lista, los números negativos no son válidos.");
+                    }
+                }
+                catch (InputMismatchException e){
+                    System.out.println("Escriba un número válido");
+                    sc.nextLine();
+                    num= 0;
+                }
+            } while (num != -1);
+        }
         System.out.println("Fin del bucle");
         System.out.println("Resultados: ");
         System.out.println(listaNum);
