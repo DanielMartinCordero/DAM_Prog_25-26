@@ -9,10 +9,12 @@ import java.util.Collection;
 repeticiones.
 • Pista: Usa el metodo contains() antes de insertar en la segunda colección.*/
 public class Main {
+    static final int CANTIDAD_ALEATORIOS = 20;
+
     public static void main(String[] args){
         Collection<Integer> numsAleatorios  = new ArrayList<>();
 
-        for(int i = 0; i<=20; i++){
+        for(int i = 1; i<=CANTIDAD_ALEATORIOS; i++){
             numsAleatorios.add((int) (Math.random() * 10+1));
         }
         System.out.println(numsAleatorios);
