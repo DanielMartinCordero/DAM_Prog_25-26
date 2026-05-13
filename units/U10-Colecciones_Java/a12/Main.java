@@ -9,9 +9,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> premios = new ArrayList<>(Arrays.asList(1000, 50, 500, 50, 200));
 
-        int repeticionesCincuenta = Collections.frequency(premios, 50);
-
-        System.out.println("Hay "+repeticionesCincuenta+" premio/s de 50 euros lista");
+        System.out.println("Hay "+Collections.frequency(premios, 50)+" premio/s de 50 euros lista");
 
         int premioMaximo = Collections.max(premios);
         int premioMinimo = Collections.min(premios);
