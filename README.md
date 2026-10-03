@@ -20,8 +20,3 @@ Main container for the **Programming** course units and projects within the firs
 
 ---
 
-## 📂 Contenido / Contents
-
-| Unidad / Unit | Descripción / Description | Estado / Status |
-| :--- | :--- | :--- |
-| **UT 07** | Herencia y Polimorfismo / Inheritance | 🚧 En progreso / In Progress |
